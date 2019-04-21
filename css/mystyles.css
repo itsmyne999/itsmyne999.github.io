@@ -1,39 +1,33 @@
 
+.background {
+    text-align:left;
 
-.background1 {
-	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("rubybeach.jpg");
-	background-position: center top;
-	background-attachment:fixed;
 }
 
-.background2 {
-	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("rainier.jpg");
-	background-position: center top;
-	background-attachment:fixed;
+.mouse
+{
+    position: absolute;
+    width: 22px;
+    height: 42px;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -12px;
+    border-radius: 15px;
+    border: 2px solid #888;
+    -webkit-animation: intro 1s;
+    animation: intro 1s;
 }
 
-.background3 {
-	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("hamershlag.jpg");
-	background-position: center top;
-	background-attachment:fixed;
-}
-
-.background4 {
-	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("seattle.jpg");
-	background-position: center top;
-	background-attachment:fixed;
-}
-
-.background5 {
-	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("sf.jpg");
-	background-position: center top;
-	background-attachment:fixed;
-}
-
-.background6 {
-	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("cmu.jpg");
-	background-position: center top;
-	background-attachment:fixed;
+.scroll
+{
+    display: block;
+    width: 3px;
+    height: 3px;
+    margin: 6px auto;
+    border-radius: 4px;
+    background: #888;
+    -webkit-animation: finger 2s infinite;
+    animation: finger 2s infinite;
 }
 
 #overlay {
@@ -82,27 +76,32 @@ img {
 .bodywrapper a {
     animation: pulse 3s infinite;
 }
-/* 
+
 div.navbar {
     position: fixed;
     width:100%;
+    /* background-color: #f3f3f3; */
     top: 0;
+    
 }
 
 div.navbar ul {
 
     list-style-type: none;
-    text-align: center;
+    text-align: right;
     margin: 0;
     min-height:50px;
-    padding: 10px 0 10px 0;
+    padding: 40px 0 10px 0;
     overflow: hidden;
-    background-color: #f3f3f3;
-} */
+    margin: 0 auto;
+    max-width: 60%;
+} 
 
-/* div.navbar li {
-    float: none;
-    display: inline-block;
+ div.navbar li {
+    display: inline;
+    padding-left: 2vh;
+    padding-right:2vh;
+
 }
 
 div.navbar li a {
@@ -120,11 +119,11 @@ div.navbar li a:hover:not(.active) {
 div.navbar li a.active {
     color: white;
     background-color: #4CAF50;
-} */
+} 
 
 body{
     font-family: 'Lato', 'Gill Sans', 'Gill Sans MT', sans-serif;
-    color:#fff;
+    color:rgb(0, 0, 0);
     font-size: 15px;
     font-weight: normal;
     padding: 0;
@@ -139,16 +138,16 @@ body{
 .webheader {
     /* padding:60vh; */
     min-height: 100vh;
-    text-align:center;
+    text-align:left;
 }
 
 .webheader div {
     /* bottom:0; */
     position:absolute;
     text-align:center;
-    margin:0 auto;
-    left:0;
-    right:0;
+    /* margin:0 auto; */
+    /* left:0;
+    right:0; */
     top:40vh;
 }
 
@@ -163,16 +162,22 @@ li {
 
 h1 {
     /* margin:0px; */
-    text-align: center;
-    font-weight: normal;
+    text-align: left;
+    font-weight: black;
     font-size: 40px;
+    letter-spacing:2px;
+    
+    /* letter-spacing:1.5px; */
 }
 
 h2{
     /* margin:0px; */
     text-align: center;
-    font-size:25px;
-        font-weight: normal;
+    font-size:18px;
+    font-weight: normal;
+    /* letter-spacing:1.5px; */
+    color: #b3b3b3;
+    letter-spacing:2px;
 }
 
 h3 {
@@ -232,7 +237,7 @@ h4 {
   font-size:14px;
   font-weight:normal;
   text-align:center;
-  color: #DCDCDC;
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
  /* margin-bottom:3px;
   padding-bottom:2px;*/
@@ -275,9 +280,9 @@ div.circlist img {
 
 }
 
-
+/* 
 .choice {
-    text-align:center;
+    text-align:left;
 }
 
 .choice h2 a{
@@ -287,7 +292,7 @@ div.circlist img {
 .choice a:hover{
     -webkit-animation: none;
     animation: none;    
-}
+} */
 
 div.circlist img:hover{
     border: 5px solid #b3b3b3;
@@ -428,6 +433,7 @@ footer {
 
     h1 {
         font-size:30px;
+        
     }
 
     h2 {
@@ -517,50 +523,71 @@ footer {
 
 @keyframes pulse {
     0%,100%{
-        color: #fff;
+        color: rgb(0, 0, 0);
     }
     50% {
-        color: #666666;
+        color: #b3b3b3;
     }
 
 }
 
 @keyframes pulse1 {
     0%,100%{
-        color: #666666;
+        color: #b3b3b3;
     }
     15% {
-        color: #fff;
+        color: rgb(0, 0, 0);
     }
     75%{
-        color: #fff;
+        color: rgb(0, 0, 0);
     }
 
 }
 
 @keyframes pulse2 {
     0%,100%{
-        color: #666666;
+        color: #b3b3b3;
     }
     40% {
-        color: #fff;
+        color: rgb(0, 0, 0);
     }
     75%{
-        color: #fff;
+        color: rgb(0, 0, 0);
     }
 
 }
 
 @keyframes pulse3 {
     0%,100%{
-        color: #666666;
+        color: #b3b3b3;
     }
     65% {
-        color: #fff;
+        color: rgb(0, 0, 0);
     }
     75%{
-        color: #fff;
+        color: rgb(0, 0, 0);
     }
 
 }
 
+@-webkit-keyframes finger {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+}
+
+@keyframes finger {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+}
