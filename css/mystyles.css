@@ -165,8 +165,8 @@ h1 {
     text-align: left;
     font-weight: black;
     font-size: 40px;
-    letter-spacing:2px;
-    
+    letter-spacing:3px;
+
     /* letter-spacing:1.5px; */
 }
 
@@ -533,39 +533,39 @@ footer {
 
 @keyframes pulse1 {
     0%,100%{
-        color: #b3b3b3;
+        color: #000000;
     }
     15% {
-        color: rgb(0, 0, 0);
+        color: #b3b3b3;
     }
     75%{
-        color: rgb(0, 0, 0);
+        color: #b3b3b3;
     }
 
 }
 
 @keyframes pulse2 {
     0%,100%{
-        color: #b3b3b3;
+        color: #000000;
     }
     40% {
-        color: rgb(0, 0, 0);
+        color: #b3b3b3;
     }
     75%{
-        color: rgb(0, 0, 0);
+        color: #b3b3b3;
     }
 
 }
 
 @keyframes pulse3 {
     0%,100%{
-        color: #b3b3b3;
+        color: #000000;
     }
     65% {
-        color: rgb(0, 0, 0);
+        color: #b3b3b3
     }
     75%{
-        color: rgb(0, 0, 0);
+        color: #b3b3b3;
     }
 
 }
