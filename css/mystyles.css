@@ -82,7 +82,8 @@ div.navbar {
     width:100%;
     /* background-color: #f3f3f3; */
     top: 0;
-    
+    background: linear-gradient(to top,transparent,white);
+    z-index:1000;
 }
 
 div.navbar ul {
@@ -161,7 +162,7 @@ li {
 h1 {
     /* margin:0px; */
     text-align: left;
-    font-weight: black;
+    font-weight: 900;
     font-size: 40px;
     letter-spacing:3px;
 
