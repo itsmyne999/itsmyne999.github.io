@@ -105,10 +105,8 @@ div.navbar ul {
 }
 
 div.navbar li a {
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
+    /* text-align: center; */
+    animation: pulse2 4s infinite;
     text-decoration: none;
 }
 
@@ -132,7 +130,7 @@ body{
 
 .bodywrapper {
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 70%;
 }
 
 .webheader {
