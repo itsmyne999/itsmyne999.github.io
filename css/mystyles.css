@@ -79,14 +79,6 @@ img {
     margin-bottom:5vh;
 }
 
-a #aboutl {
-    animation: pulse2 3s infinite;
-}
-
-a #codel {
-    animation: pulse1 4s infinite;
-}
-
 div.navbar {
     position: fixed;
     width:100%;
@@ -117,16 +109,16 @@ div.navbar ul {
 
 div.navbar li a {
     /* text-align: center; */
-    animation: pulse2 4s infinite;
+    /* animation: pulse2 4s infinite; */
     text-decoration: none;
 }
 
 div.navbar li a:hover:not(.active) {
-    background-color: #ddd;
+    color: #fb5353;
 }
 
 div.navbar li a.active {
-    color: white;
+    color: #fb5353;
     background-color: #4CAF50;
 } 
 
