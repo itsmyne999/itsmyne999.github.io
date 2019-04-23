@@ -5,9 +5,10 @@
 }
 
 button {
-    background-color:#fb5353;
+    background-color:rgba(251,83,83,1);
     border-radius: 16px;
     border:none;
+    opacity: 1!important;
 }
 
 .mouse
@@ -315,7 +316,7 @@ div.circlist li img {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #000;
+    background-color: #fff;
       
 }
 
@@ -351,7 +352,7 @@ div.circlist li img {
 } */
 
 #coder h3 {
-    color: #fff;
+    color: #000;
     font-weight:900;
   font-size: 20px;
   top: 50%;
@@ -360,7 +361,7 @@ div.circlist li img {
 }
 
 #coder h4 {
-    color: #fff;
+    color: #666666;
     font-weight:900;
   font-size: 15px;
   top: 50%;
@@ -395,10 +396,10 @@ div.circlist li {
     text-align: center;
     position:relative;
     margin: 0 auto;
-    width: 42%;
+    width: 45%;
     vertical-align:top;
-    margin-left:2%;
-    margin-right: 2%;
+    margin-left:2.3%;
+    margin-right: 2.3%;
     margin-bottom: 2%;
     margin-top: 2%;
 }
