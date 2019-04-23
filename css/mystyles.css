@@ -46,8 +46,7 @@ button {
 
 
 a:hover {
-    color: #DCDCDC;
-
+    color:#fb5353!important;
 }
 
 a {
@@ -182,6 +181,19 @@ h2{
     /* letter-spacing:1.5px; */
     color: #b3b3b3;
     letter-spacing:2px;
+}
+
+.fab
+{
+    color:#b3b3b3;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:30px;
+}
+
+.fab:hover
+{
+    color:#fb5353!important;
 }
 
 h3 {
